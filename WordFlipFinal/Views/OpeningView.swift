@@ -25,7 +25,7 @@ struct OpeningView: View {
                     VStack {
                         //nav links to open pages with buttons
                         NavigationLink("Play") {
-                            OpeningView()
+                            MatchView()
                         }
                         
                         .navigationTitle("Home")
