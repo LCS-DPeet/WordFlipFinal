@@ -41,8 +41,16 @@ struct MatchView: View {
                             .font(.title3)
                             .padding(20)
                     }
-                        
+                    
                     Spacer()
+                    
+                    ZStack {
+                        
+                        Rectangle()
+                            .fill(.red)
+                            .cornerRadius(10)
+                            .frame(width: 100, height: 40)
+                            .padding()
                     
                     //New Game Bar
                     Button("New Game"){
@@ -50,7 +58,7 @@ struct MatchView: View {
                     }
                     .padding(20)
                     
-                    
+                }
                     
                 }
                 
