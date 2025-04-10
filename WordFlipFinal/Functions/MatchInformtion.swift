@@ -12,4 +12,5 @@ struct Card: Identifiable {
     let image: String
     let faceUp: Bool = false
     let faceup: Bool = false
+        .
 }
